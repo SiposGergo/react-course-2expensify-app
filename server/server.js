@@ -11,4 +11,4 @@ app.get('*', (req, res) => {
     res.sendfile(path.join(publicPath, "index.html"));
 });
 
-app.listen(PORT, () => { console.log("server is up") });
+app.listen(port, () => { console.log("server is up") });
